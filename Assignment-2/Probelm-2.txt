@@ -1,0 +1,10 @@
+class Solution(object):
+    def shuffle(self, nums, n):
+        x_pos=nums[:n]
+        y_pos=nums[n:]
+        shfarr=[]
+        for i in range(n):
+            shfarr.append(x_pos[i])
+            shfarr.append(y_pos[i])
+        return shfarr
+        
