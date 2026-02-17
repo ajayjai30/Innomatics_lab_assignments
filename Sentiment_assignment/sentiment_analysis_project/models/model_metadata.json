@@ -1,0 +1,9 @@
+{
+    "model_type": "LogisticRegression",
+    "feature_extraction": "TF-IDF",
+    "f1_score": 0.9453125,
+    "accuracy": 0.9037800687285223,
+    "precision": 0.9046728971962616,
+    "recall": 0.9897750511247444,
+    "feature_extractor_type": "tfidf"
+}
